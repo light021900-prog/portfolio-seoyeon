@@ -4,6 +4,9 @@
     padding: 0;
     width: 1440px;
 }
+.About .center .left {
+    margin-right: 80px;
+}
 .About .center .left .title {
     width: 113px;
     margin-bottom: 33px;
