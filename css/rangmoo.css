@@ -5,6 +5,7 @@
 /* 첫번째 페이지 시작 */
 .rangmoo .page1 .center {
     display: flex;
+    background-color: antiquewhite;
 }
 .rangmoo .page1 .left .top {
     display: flex;
@@ -38,6 +39,9 @@
 }
 
 /* 주요 성과 시작 */
+.rangmoo .main_suc .center {
+    background-color:cadetblue;
+}
 .main_suc .title {
     margin: 0 auto;
     text-align: center;
@@ -68,6 +72,9 @@
 /* 주요 성과 끝 */
 
 /* 전략 수정 4가지 시작 */
+.rangmoo .strat .center {
+    background-color: darkseagreen;
+}
 /* 성공 사례 분석 전략 시작 */
 .rangmoo .strat .strat_title {
     text-align: center;
@@ -76,15 +83,20 @@
 }
 .rangmoo .strat .title_set {
     text-align: center;
+    margin-bottom: 111px;
 
 }
 .rangmoo .strat .title_set .title {
     margin-bottom: 26px;
 }
+.rangmoo .strat .strat_boxes {
+    display: flex;
+    justify-content: space-between;
+}
 .rangmoo .strat .strat_left {
     display: flex;
     position: relative;
-    margin-left: -200px;
+    /* margin-left: -200px; */
 }
 .rangmoo .strat .left_img {
     display: flex;
@@ -117,4 +129,66 @@
     flex-direction: column;
     gap: 29px;
 }
+
+.rangmoo .strat .right_img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 652px;
+}
+.rangmoo .strat .after {
+    font-size: 28px;
+    font-weight: 800;
+}
+.rangmoo .strat .right_img img {
+    width: 652px;
+    height: 652px;
+}
+.rangmoo .strat .strat_right {
+    display: flex;
+    position: relative;
+}
+.rangmoo .strat .right_box {
+    width: 350px;
+    height: 263px;
+    background-color: rgb(135, 189, 189);
+    border-radius: 23px;
+    padding: 30px 51px 30px 22px;
+    position: absolute;
+    top: 323px;
+    right: 430px;
+    z-index: -1;
+}
+.rangmoo .strat .right_box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
 /* 성공 사례 분석 전략 끝 */
+/* 꾸준함 신뢰 시작 */
+.rangmoo .trust_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.rangmoo .trust_left img{
+    width: 717px;
+    height: 445px;
+}
+.rangmoo .trust_right {
+    margin-top: 62px;
+    margin-left: 40px;
+}
+.rangmoo .trust_right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+.rangmoo .trust_right ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+/* 꾸준함 신뢰 끝 */
