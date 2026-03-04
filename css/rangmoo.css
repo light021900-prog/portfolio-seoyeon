@@ -1,0 +1,68 @@
+.center {
+    width: 1440px;
+    margin: 0 auto;
+}
+/* 첫번째 페이지 시작 */
+.rangmoo .page1 .center {
+    display: flex;
+}
+.rangmoo .page1 .left .top {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.rangmoo .page1 .left .top .title {
+    margin-top: 231px;
+}
+.rangmoo .page1 .left .top .explain {
+    margin-bottom: 335px;
+}
+
+.rangmoo .page1 .left .bot {
+    display: flex;
+    gap: 23px;
+}
+.rangmoo .page1 .left .bot .bot_left {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.rangmoo .page1 .left .bot .bot_right   {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.rangmoo .page1 .right {
+    display: flex;
+    margin-top: 99px;
+}
+
+/* 주요 성과 시작 */
+.main_suc .title {
+    margin: 0 auto;
+    text-align: center;
+}
+.main_suc .sucs {
+    margin: 0 auto;
+    margin-top: 185px;
+    display: flex;
+    gap: 213px;
+    padding-left: 277px;
+    padding-right: 277px;
+}
+.main_suc .sucs .suc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.main_suc .sucs .suc .num {
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 43px;
+}
+.main_suc .sucs .suc .cont {
+    font-weight: 800;
+    font-size: 28px;
+}
+/* 주요 성과 끝 */
