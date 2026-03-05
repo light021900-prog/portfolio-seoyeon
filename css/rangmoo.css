@@ -6,6 +6,8 @@
 .rangmoo .page1 .center {
     display: flex;
     background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 0 40px;
 }
 .rangmoo .page1 .left .top {
     display: flex;
@@ -36,6 +38,7 @@
 .rangmoo .page1 .right {
     display: flex;
     margin-top: 99px;
+    margin-right: 10px;
 }
 
 /* 주요 성과 시작 */
@@ -103,15 +106,19 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 652px;
+    align-items: center;
+    width: 270px;
 }
 .rangmoo .strat .before {
     font-size: 28px;
     font-weight: 800;
 }
 .rangmoo .strat .left_img img {
-    width: 652px;
-    height: 652px;
+    width: 264px;
+    height: 528px;
+    /* background-color: red; */
+    position: relative;
+    z-index: 2;
 }
 .rangmoo .strat .left_box {
     width: 350px;
@@ -120,9 +127,9 @@
     border-radius: 23px;
     padding: 30px 46px 30px 49px;
     position: absolute;
-    top: 323px;
-    left: 434px;
-    z-index: -1;
+    top: 272px;
+    left: 235px;
+    z-index: 1;
 }
 .rangmoo .strat .left_box ul {
     display: flex;
@@ -135,15 +142,19 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 652px;
+    align-items: center;
+    width: 270px;
+    position: relative;
 }
 .rangmoo .strat .after {
     font-size: 28px;
     font-weight: 800;
 }
 .rangmoo .strat .right_img img {
-    width: 652px;
-    height: 652px;
+    width: 264px;
+    height: 528px;
+    position: relative;
+    z-index: 2;
 }
 .rangmoo .strat .strat_right {
     display: flex;
@@ -156,9 +167,9 @@
     border-radius: 23px;
     padding: 30px 51px 30px 22px;
     position: absolute;
-    top: 323px;
-    right: 430px;
-    z-index: -1;
+    top: 272px;
+    right: 235px;
+    z-index: 1;
 }
 .rangmoo .strat .right_box ul {
     display: flex;
@@ -192,3 +203,155 @@
 }
 
 /* 꾸준함 신뢰 끝 */
+/* 소통 생명력 시작 */
+.rangmoo .commu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rangmoo .commu .commu_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rangmoo .commu .title_set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+}
+
+.rangmoo .commu .commu_cont .replies {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+.rangmoo .commu .commu_cont .replies .reply {
+    width: 671px;
+    height: 186px;
+    border-radius: 17px;
+    background-color: aliceblue;
+}
+.rangmoo .commu .commu_cont .replies .reply1 {
+    margin-right: 260px;
+}
+.rangmoo .commu .commu_cont .replies .reply2 {
+    margin-left: 243px;
+}
+.rangmoo .commu .commu_cont .replies .reply3 {
+    margin-right: 242px;
+}
+
+.rangmoo .commu .dots {
+    margin-top: 66px;
+    margin-bottom: 135px;
+}
+
+.rangmoo .commu .cont_boxes {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.rangmoo .commu .cont_boxes .cont_box {
+    width: 378px;
+    height: 233px;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+    padding: 0 42px 27px 42px;
+}
+.rangmoo .commu .cont_boxes .cont_box .blue_box {
+    background-color: #3958B3;
+    width: 129px;
+    height: 37px;
+    border-radius: 0 0 6px 6px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rangmoo .commu .cont_boxes .cont_box .reply_title {
+    color: #3958B3;
+}
+.rangmoo .commu .cont_boxes .cont_box .line {
+    width: 294px;
+    height: 1px;
+    background-color: #DAD3D3;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+/* 소통 생명력 끝 */
+/* 밈 소통 시작 */
+.rangmoo .mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rangmoo .mim .title_set {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.rangmoo .mim .mim_set {
+    display: flex;
+    background-color: yellow;
+    position: relative;
+    width: 1165px;
+}
+
+.rangmoo .mim .mim_set .mim_sauce {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 241px;
+}
+.rangmoo .mim .mim_set .mim_arrow {
+    height: 10px;
+     margin-top: 416px;
+     margin-left: 26px;
+}
+.rangmoo .mim .mim_set .mim_rang {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
+}
+.rangmoo .mim .mim_set .mim_rang img {
+    width: 873px;
+    height: 873px;
+}
+
+.rangmoo .mim .mim_text_boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    gap: 67px; 
+    padding-top: 254px;
+    padding-bottom: 214px;
+    justify-content: flex-end;
+}
+.rangmoo .mim .mim_text_box {
+    display: flex;
+}
+.rangmoo .mim .mim_text_box .mim_line1 {
+    width: 131px;
+    height: 11px;
+    margin-right: 23px;
+    margin-top: 10px;
+}
+.rangmoo .mim .mim_text_box .mim_line2 {
+    width: 197px;
+    height: 11px;
+    margin-right: 23px;
+    margin-top: 10px;
+}
+/* 밈 소통 끝 */
