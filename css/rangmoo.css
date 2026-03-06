@@ -359,12 +359,7 @@
     margin-right: 23px;
     margin-top: 10px;
 }
-/* .rangmoo .mim .mim_text_box.box1 {
-    background-color: blue;
-}
-.rangmoo .mim .mim_text_box.box2 {
-    background-color: red;
-} */
+
 /* 밈 소통 끝 */
 /* 대표 성공 사례 시작 */
 .rangmoo .good {
@@ -386,10 +381,14 @@
 .rangmoo .good .good_boxes .good_box {
     display: flex;
     background-color: yellow;
+    position: relative;
 }
 .rangmoo .good .good_boxes .good_box.box1 {
-    width: 1113px;
+    display:flex;
+    justify-content:center;
+    gap:70px;
 }
+
 .rangmoo .good .good_img img {
     width: 301px;
     height: 601px;
@@ -400,12 +399,12 @@
     flex-direction: column;
     margin-top: 77px;
     gap: 77px;
-    margin-left: -234px;
 }
+
+
+
 .rangmoo .good .good_boxes .good_box .good_texts .good_text {
     display: flex;
-    width: 1043px;
-    justify-content: flex-end;
 }
 .rangmoo .good .good_boxes .good_box .good_texts .good_text1 {
     height: 187px;
@@ -450,5 +449,36 @@
     border:2px solid #3958B3;
 }
 
+
+/* 대표 성공에서 두쫀쿠 */
+.rangmoo .good .good_boxes .good_box.box2 {
+    display: flex;
+    gap:70px;
+}
+
+.rangmoo .good .good_boxes .good_box.box2 .good_img {
+    order: 2;
+}
+.rangmoo .good_line3 {
+    width: 330px;
+    height: 20px;
+}
+.rangmoo .good_line4 {
+    width: 230px;
+    height: 225px;
+}
+
+.rangmoo .good_text3 {
+    background-color: pink;
+}
+.rangmoo .good_text3 .text_box {
+    background-color: burlywood;
+}
+.rangmoo .good_text4 {
+    background-color: aquamarine;
+}
+.rangmoo .good_text4 .text_box {
+    background-color: cornflowerblue;
+}
 
 /* 대표 성공 사례 끝 */
