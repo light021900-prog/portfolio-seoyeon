@@ -1,3 +1,13 @@
+.rangmoo {
+    display: flex;
+    flex-direction: column;
+    gap: 340px;
+}
+.rangmoo .strat .center {
+    display: flex;
+    flex-direction: column;
+    gap: 340px;
+}
 .center {
     width: 1440px;
     margin: 0 auto;
@@ -5,7 +15,6 @@
 /* 첫번째 페이지 시작 */
 .rangmoo .page1 .center {
     display: flex;
-    background-color: antiquewhite;
     justify-content: space-between;
     padding: 0 40px;
 }
@@ -42,9 +51,7 @@
 }
 
 /* 주요 성과 시작 */
-.rangmoo .main_suc .center {
-    background-color:cadetblue;
-}
+
 .main_suc .title {
     margin: 0 auto;
     text-align: center;
@@ -75,9 +82,7 @@
 /* 주요 성과 끝 */
 
 /* 전략 수정 4가지 시작 */
-.rangmoo .strat .center {
-    background-color: darkseagreen;
-}
+
 /* 성공 사례 분석 전략 시작 */
 .rangmoo .strat .strat_title {
     text-align: center;
@@ -229,7 +234,6 @@
     gap: 19px;
     justify-content: center;
     align-items: center;
-    background-color: rebeccapurple;
 }
 .rangmoo .commu .commu_cont .replies .reply {
     width: 671px;
@@ -302,7 +306,6 @@
 
 .rangmoo .mim .mim_set {
     display: flex;
-    background-color: yellow;
     position: relative;
     width: 1165px;
 }
@@ -312,12 +315,12 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-top: 241px;
+    margin-top: 23px;
 }
 .rangmoo .mim .mim_set .mim_arrow {
     height: 10px;
-     margin-top: 416px;
-     margin-left: 26px;
+    margin-top: 416px;
+    margin-left: 26px;
 }
 .rangmoo .mim .mim_set .mim_rang {
     position: absolute;
@@ -333,7 +336,7 @@
 .rangmoo .mim .mim_text_boxes {
     display: flex;
     flex-direction: column;
-    margin-left: 400px;
+    margin-left: 320px;
     gap: 67px; 
     padding-top: 254px;
     padding-bottom: 214px;
@@ -341,6 +344,8 @@
 }
 .rangmoo .mim .mim_text_box {
     display: flex;
+    width: 535px;
+    justify-content: flex-end;
 }
 .rangmoo .mim .mim_text_box .mim_line1 {
     width: 131px;
@@ -354,4 +359,96 @@
     margin-right: 23px;
     margin-top: 10px;
 }
+/* .rangmoo .mim .mim_text_box.box1 {
+    background-color: blue;
+}
+.rangmoo .mim .mim_text_box.box2 {
+    background-color: red;
+} */
 /* 밈 소통 끝 */
+/* 대표 성공 사례 시작 */
+.rangmoo .good {
+    display: flex;
+    flex-direction: column;
+}
+.rangmoo .good .title_set {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rangmoo .good .good_boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+.rangmoo .good .good_boxes .good_box {
+    display: flex;
+    background-color: yellow;
+}
+.rangmoo .good .good_boxes .good_box.box1 {
+    width: 1113px;
+}
+.rangmoo .good .good_img img {
+    width: 301px;
+    height: 601px;
+}
+
+.rangmoo .good .good_boxes .good_box .good_texts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 77px;
+    gap: 77px;
+    margin-left: -234px;
+}
+.rangmoo .good .good_boxes .good_box .good_texts .good_text {
+    display: flex;
+    width: 1043px;
+    justify-content: flex-end;
+}
+.rangmoo .good .good_boxes .good_box .good_texts .good_text1 {
+    height: 187px;
+}
+.rangmoo .good .good_boxes .good_box .good_texts .good_text2 {
+   height: 283px; 
+}
+.rangmoo .good .good_boxes .good_box .good_line1 {
+    width: 346px;
+    height: 16px;
+    margin-top: 10px;
+}
+.rangmoo .good .good_boxes .good_box .good_line2 {
+    width: 246px;
+    height: 115px;
+    margin-top: -95px;
+}
+.rangmoo .good .good_boxes .good_box .text_box .title_box {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.rangmoo .good .good_boxes .good_box .good_cont {
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+.rangmoo .good .good_boxes .good_box .good_keys {
+    display: flex;
+    gap: 5px
+}
+.rangmoo .good .good_boxes .good_box .good_keys .good_key {
+    width: 171px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 22.5px;
+    border:2px solid #3958B3;
+}
+
+
+/* 대표 성공 사례 끝 */
