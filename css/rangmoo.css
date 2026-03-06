@@ -376,17 +376,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rebeccapurple;
 }
 .rangmoo .good .good_boxes .good_box {
     display: flex;
-    background-color: yellow;
     position: relative;
 }
 .rangmoo .good .good_boxes .good_box.box1 {
     display:flex;
     justify-content:center;
-    gap:70px;
+    gap:184px;
 }
 
 .rangmoo .good .good_img img {
@@ -405,6 +403,7 @@
 
 .rangmoo .good .good_boxes .good_box .good_texts .good_text {
     display: flex;
+    justify-content: flex-end;
 }
 .rangmoo .good .good_boxes .good_box .good_texts .good_text1 {
     height: 187px;
@@ -427,6 +426,10 @@
     gap: 11px;
     align-items: center;
 }
+.rangmoo .good .good_boxes .good_box .text_box .title_box_duzz {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .rangmoo .good .good_boxes .good_box .good_cont {
     margin-top: 2px;
@@ -435,7 +438,8 @@
 
 .rangmoo .good .good_boxes .good_box .good_keys {
     display: flex;
-    gap: 5px
+    gap: 5px;
+    justify-content: flex-end;
 }
 .rangmoo .good .good_boxes .good_box .good_keys .good_key {
     width: 171px;
@@ -453,7 +457,7 @@
 /* 대표 성공에서 두쫀쿠 */
 .rangmoo .good .good_boxes .good_box.box2 {
     display: flex;
-    gap:70px;
+    gap:184px;
 }
 
 .rangmoo .good .good_boxes .good_box.box2 .good_img {
@@ -468,17 +472,11 @@
     height: 225px;
 }
 
-.rangmoo .good_text3 {
-    background-color: pink;
-}
 .rangmoo .good_text3 .text_box {
-    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
-.rangmoo .good_text4 {
-    background-color: aquamarine;
-}
-.rangmoo .good_text4 .text_box {
-    background-color: cornflowerblue;
-}
+
 
 /* 대표 성공 사례 끝 */
