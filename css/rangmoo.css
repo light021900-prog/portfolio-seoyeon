@@ -11,6 +11,7 @@
 .center {
     width: 1440px;
     margin: 0 auto;
+    margin-bottom: 340px;
 }
 /* 첫번째 페이지 시작 */
 .rangmoo .page1 .center {
@@ -51,9 +52,10 @@
 }
 
 /* 주요 성과 시작 */
-
+.main_suc {
+    background-color: #F5F5F5;
+}
 .main_suc .title {
-    margin: 0 auto;
     text-align: center;
 }
 .main_suc .sucs {
@@ -86,8 +88,6 @@
 /* 성공 사례 분석 전략 시작 */
 .rangmoo .strat .strat_title {
     text-align: center;
-    margin-top: 385px;
-    margin-bottom: 107px;
 }
 .rangmoo .strat .title_set {
     text-align: center;
@@ -365,6 +365,10 @@
 .rangmoo .good {
     display: flex;
     flex-direction: column;
+    background-color: #F5F5F5;
+}
+.rangmoo .good .en-title {
+    text-align: center;
 }
 .rangmoo .good .title_set {
     text-align: center;
@@ -439,6 +443,11 @@
 .rangmoo .good .good_boxes .good_box .good_keys {
     display: flex;
     gap: 5px;
+}
+.rangmoo .good .good_boxes .good_box .good_keys.keys1 {
+    justify-content: flex-start;
+}
+.rangmoo .good .good_boxes .good_box .good_keys.keys2 {
     justify-content: flex-end;
 }
 .rangmoo .good .good_boxes .good_box .good_keys .good_key {
