@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin:0; padding:0;}
+
+        .scrollicon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation-name:iconmove;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ;
+}
+
+@keyframes iconmove{
+    0% {top:0;}
+    50% {top:50px; }
+    100% {top:0; }
+}
+
+
+        .mouse {
+            width: 20px;
+            height: 30px;
+            border: 2px solid #000;
+            border-radius: 20px;
+        }
+        
+
+        .wheel {
+                width: 3px;
+                height: 7px;
+                border: 1px solid #000;
+                border-radius: 20px;
+                position: absolute;
+                left: 50%;
+                top: 7px;
+                transform: translateX(-50%);
+            }
+
+        
+        .botarrow {
+            position: absolute;
+            left: 50%;
+            top: 40px;
+            transform: translateX(-50%);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrollicon">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div class="botarrow"><i class="fas fa-chevron-down"></i></div>
+    </div>
+</body>
+</html>
