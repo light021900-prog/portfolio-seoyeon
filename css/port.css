@@ -12,3 +12,39 @@
     height: 100px;
     background-color: beige;
 }
+
+.Port .portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-align: center;
+    align-items: center;
+    padding-top: 232px;
+    margin-bottom: 94px;
+}
+.Port .portfolio .port {
+    font-weight: 800;
+    font-size: 19px;
+}
+.Port .portfolio .port_line {
+    width: 117px;
+    height: 1px;
+    background-color: #1a1a1a;
+}
+
+.Port .port_left .port_title .s-title {
+    margin-bottom: 8px;
+}
+.Port .port_left .port_title .more {
+    width: 91px;
+    height: 34px;
+    background-color: #3958B3;
+    border-radius: 24px;
+    color: #fff;
+    margin-top: 13px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
