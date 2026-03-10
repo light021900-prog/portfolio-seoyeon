@@ -14,10 +14,14 @@
     margin-bottom: 340px;
 }
 /* 첫번째 페이지 시작 */
+.rangmoo .page1 {
+    background-color: #FFD662;
+}
 .rangmoo .page1 .center {
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
+    height: 928px;
 }
 .rangmoo .page1 .left .top {
     display: flex;
@@ -53,10 +57,16 @@
 
 /* 주요 성과 시작 */
 .main_suc {
-    background-color: #F5F5F5;
+    background-color: #F7F7F7;
+    margin: 0;
 }
+.main_suc .center {
+    height: 1850px;
+}
+
 .main_suc .title {
     text-align: center;
+    padding-top: 145px;
 }
 .main_suc .sucs {
     margin: 0 auto;
@@ -88,7 +98,13 @@
 /* 성공 사례 분석 전략 시작 */
 .rangmoo .strat .strat_title {
     text-align: center;
+    padding-top: 145px;
+    background-color: pink;
 }
+.rangmoo .strat .suc_ex {
+    height: 1546px;
+}
+
 .rangmoo .strat .title_set {
     text-align: center;
     margin-bottom: 111px;
@@ -128,7 +144,7 @@
 .rangmoo .strat .left_box {
     width: 350px;
     height: 263px;
-    background-color: antiquewhite;
+    background-color: #EFEEF3;
     border-radius: 23px;
     padding: 30px 46px 30px 49px;
     position: absolute;
@@ -168,7 +184,7 @@
 .rangmoo .strat .right_box {
     width: 350px;
     height: 263px;
-    background-color: rgb(135, 189, 189);
+    background-color:#FFD662;
     border-radius: 23px;
     padding: 30px 51px 30px 22px;
     position: absolute;
@@ -180,6 +196,26 @@
     display: flex;
     flex-direction: column;
     gap: 29px;
+}
+
+.rangmoo .strat .suc_t_3 {
+    display: flex;
+    gap: 19px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 92px;
+    margin-bottom: 145px;
+}
+.rangmoo .strat .suc_t_3 .suc_t {
+    width: 417px;
+    height: 206px;
+    border-radius: 64px;
+    background-color: #fff;
+    box-shadow: 0 7px 12px #DDDCDC;
+}
+.rangmoo .strat .suc_t_3 .suc_t .suc_t_title {
+    margin-top: 38px;
+    margin-bottom: 31px;
 }
 /* 성공 사례 분석 전략 끝 */
 /* 꾸준함 신뢰 시작 */
